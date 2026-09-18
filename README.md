@@ -1,4 +1,4 @@
-<img width="1200" height="1600" alt="entre (2)" src="https://github.com/user-attachments/assets/4b4423dc-fdc0-4d5b-80bd-54088034fa90" />
+
 # Jenifer Lashes
 
 Site institucional desenvolvido para a empresa **Jenifer Lashes**, especializada em design de sobrancelhas e extensão de cílios.
@@ -66,6 +66,7 @@ Esses registros poderão ser utilizados no projeto para comprovar a realização
 <img width="720" height="1600" alt="4559d4ff-3d73-4ec7-b23b-eef22b5893ae" src="https://github.com/user-attachments/assets/9cd52466-aaf7-4d26-b06d-fb868d6c01d9" />
 <img width="720" height="1600" alt="a7239991-0131-4158-b76b-99e5393fc80c" src="https://github.com/user-attachments/assets/07a7cd21-474f-478c-a1a5-79d74683560d" />
 <img width="720" height="1600" alt="77697e54-ffac-4031-b8ac-827cd301c5f4" src="https://github.com/user-attachments/assets/d8424cd5-645f-466b-8a00-471666aae26e" />
+<img width="1200" height="1600" alt="entre (2)" src="https://github.com/user-attachments/assets/4b4423dc-fdc0-4d5b-80bd-54088034fa90" />
 
 ## 4. Desenvolvimento do Site
 
