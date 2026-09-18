@@ -265,6 +265,8 @@ Além dos conhecimentos técnicos, o projeto proporcionou uma experiência de tr
 
 O resultado é um site com **13 páginas**, desenvolvido para a **Jenifer Lashes**, com foco na divulgação dos serviços, apresentação dos trabalhos realizados e facilitação do contato com novos clientes por meio de recursos de orçamento e agendamento.
 
+Aqui o link do site Hospedado no Netlify: https://desing-cilios-e-sobrancelhas.netlify.app/
+
 
 
 ## 12. Tecnologias Utilizadas
