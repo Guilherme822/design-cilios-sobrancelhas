@@ -59,6 +59,13 @@ O grupo possui registros que comprovam o contato realizado com a organização, 
 
 Esses registros poderão ser utilizados no projeto para comprovar a realização da entrevista e do contato com a organização.
 
+###3.2 Registro Comprovado
+
+<img width="720" height="1600" alt="4559d4ff-3d73-4ec7-b23b-eef22b5893ae" src="https://github.com/user-attachments/assets/9cd52466-aaf7-4d26-b06d-fb868d6c01d9" />
+<img width="720" height="1600" alt="a7239991-0131-4158-b76b-99e5393fc80c" src="https://github.com/user-attachments/assets/07a7cd21-474f-478c-a1a5-79d74683560d" />
+<img width="720" height="1600" alt="77697e54-ffac-4031-b8ac-827cd301c5f4" src="https://github.com/user-attachments/assets/d8424cd5-645f-466b-8a00-471666aae26e" />
+
+
 
 
 ## 4. Desenvolvimento do Site
