@@ -10,7 +10,7 @@ O projeto tem como objetivo apresentar a empresa, divulgar seus serviços e trab
 
 - **Guilherme Marques Bento**
 - **João Paulo**
-- **Amin**
+- **Amin brayan illanes callata**
 
 
 
