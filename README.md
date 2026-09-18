@@ -1,3 +1,4 @@
+<img width="1200" height="1600" alt="entre (2)" src="https://github.com/user-attachments/assets/4b4423dc-fdc0-4d5b-80bd-54088034fa90" />
 # Jenifer Lashes
 
 Site institucional desenvolvido para a empresa **Jenifer Lashes**, especializada em design de sobrancelhas e extensão de cílios.
