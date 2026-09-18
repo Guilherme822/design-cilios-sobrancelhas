@@ -4,7 +4,7 @@ Site institucional desenvolvido para a empresa **Jenifer Lashes**, especializada
 
 O projeto tem como objetivo apresentar a empresa, divulgar seus serviços e trabalhos realizados, além de facilitar o contato com clientes por meio de recursos de orçamento, agendamento e informações de atendimento.
 
----
+
 
 ## Integrantes
 
@@ -12,7 +12,7 @@ O projeto tem como objetivo apresentar a empresa, divulgar seus serviços e trab
 - **João Paulo**
 - **Amin brayan illanes callata**
 
----
+
 
 ## 1. Introdução
 
@@ -24,7 +24,7 @@ Além da divulgação, o site possui páginas e formulários voltados para **or�
 
 O projeto conta com **13 páginas**, organizadas para apresentar diferentes informações e funcionalidades relacionadas à empresa.
 
----
+
 
 ## 2. Sobre a Organização
 
@@ -41,7 +41,7 @@ As informações utilizadas no desenvolvimento foram levantadas diretamente com 
 
 A empresa também disponibilizou materiais utilizados no site, como **fotos, vídeos, informações sobre serviços, valores, horários e outros dados necessários para a construção do conteúdo**.
 
----
+
 
 ## 3. Contato com a Organização
 
@@ -59,12 +59,7 @@ O grupo possui registros que comprovam o contato realizado com a organização, 
 
 Esses registros poderão ser utilizados no projeto para comprovar a realização da entrevista e do contato com a organização.
 
----
-### 3.2 Registro Comprovado
 
-<img width="720" height="1600" alt="4559d4ff-3d73-4ec7-b23b-eef22b5893ae" src="https://github.com/user-attachments/assets/9cd52466-aaf7-4d26-b06d-fb868d6c01d9" />
-<img width="720" height="1600" alt="a7239991-0131-4158-b76b-99e5393fc80c" src="https://github.com/user-attachments/assets/07a7cd21-474f-478c-a1a5-79d74683560d" />
-<img width="720" height="1600" alt="77697e54-ffac-4031-b8ac-827cd301c5f4" src="https://github.com/user-attachments/assets/d8424cd5-645f-466b-8a00-471666aae26e" />
 
 ## 4. Desenvolvimento do Site
 
@@ -80,7 +75,7 @@ O projeto foi desenvolvido utilizando **HTML5**, com foco na organização do co
 
 O site possui **13 páginas**, organizadas de acordo com as diferentes informações e necessidades da empresa.
 
----
+
 
 ## 5. Estrutura do Site
 
@@ -101,7 +96,7 @@ No total, o projeto possui **13 páginas HTML**.
 
 A navegação entre as páginas é realizada por meio de links utilizando o elemento `<a>` e o atributo `href`.
 
----
+
 
 ## 6. Recursos Utilizados
 
@@ -143,24 +138,24 @@ Foram utilizados formulários HTML para representar as áreas de **orçamento, a
 
 Entre os recursos utilizados estão:
 
-- `<form>`
-- `<fieldset>`
-- `<legend>`
-- `<label>`
-- `<input>`
-- `<select>`
-- `<option>`
-- `<textarea>`
-- `<button>`
-- `<input type="checkbox">`
+ `<form>`
+ `<fieldset>`
+ `<legend>`
+ `<label>`
+ `<input>`
+ `<select>`
+ `<option>`
+ `<textarea>`
+ `<button>`
+ `<input type="checkbox">`
 
 Também foram utilizados diferentes tipos de campos de entrada, como:
 
-- `text`
-- `tel`
-- `email`
-- `date`
-- `checkbox`
+ `text`
+ `tel`
+ `email`
+ `date`
+ `checkbox`
 
 Esses recursos permitem organizar as informações que o usuário deve preencher ao realizar um orçamento, entrar em contato ou solicitar um agendamento.
 
@@ -170,33 +165,32 @@ O site utiliza imagens e vídeos para apresentar os trabalhos realizados pela em
 
 Foram utilizados recursos como:
 
-- `<img>`
-- `<video>`
+ `<img>`
+ `<video>`
 
 As imagens e outros materiais utilizados foram fornecidos pela própria empresa ou disponibilizados durante o processo de desenvolvimento.
 
----
+
 
 ## 7. Materiais Utilizados
 
 Entre os arquivos de imagens disponibilizados no projeto estão:
 
-- `1.jpeg`
-- `1_1.jpeg`
-- `2.jpeg`
-- `3.jpeg`
-- `4.jpeg`
-- `5.jpeg`
-- `6.jpeg`
-- `7.jpeg`
-- `antes_depois.jpeg`
-- `flyer.jpeg`
-- `tab_valores.jpeg`
-- `volumes.jpeg`
+ `1.jpeg`
+ `1_1.jpeg`
+ `2.jpeg`
+ `3.jpeg`
+ `4.jpeg`
+ `5.jpeg`
+ `6.jpeg`
+ `7.jpeg`
+ `antes_depois.jpeg`
+ `flyer.jpeg`
+ `tab_valores.jpeg`
+ `volumes.jpeg`
 
 Esses materiais são utilizados para apresentar os trabalhos realizados, serviços, valores e outras informações relacionadas à empresa.
 
----
 
 ## 8. Objetivo do Site
 
@@ -217,7 +211,7 @@ Por meio do site, o visitante pode:
 
 Dessa forma, o site funciona tanto como uma ferramenta de divulgação quanto como um meio de aproximação entre a empresa e seus clientes.
 
----
+
 
 ## 9. Desafios do Desenvolvimento
 
@@ -229,7 +223,6 @@ Outro desafio foi adaptar os materiais recebidos da empresa, como fotos, vídeos
 
 A criação das 13 páginas também exigiu atenção à organização dos links e à navegação entre os arquivos HTML.
 
----
 
 ## 10. Aprendizados
 
@@ -251,7 +244,7 @@ Durante o desenvolvimento foram trabalhados conhecimentos relacionados a:
 
 Além dos conhecimentos técnicos, o projeto proporcionou uma experiência de contato com uma organização real, permitindo compreender melhor as necessidades de uma empresa e utilizar informações reais na construção de um site.
 
----
+
 
 ## 11. Conclusão
 
@@ -265,15 +258,12 @@ Além dos conhecimentos técnicos, o projeto proporcionou uma experiência de tr
 
 O resultado é um site com **13 páginas**, desenvolvido para a **Jenifer Lashes**, com foco na divulgação dos serviços, apresentação dos trabalhos realizados e facilitação do contato com novos clientes por meio de recursos de orçamento e agendamento.
 
----
 
-Aqui o link do site Hospedado no Netlify: https://desing-cilios-e-sobrancelhas.netlify.app/
 
 ## 12. Tecnologias Utilizadas
 
-- **HTML5**
+ **HTML5**
 
----
 
 ## 13. Status do Projeto
 
@@ -283,7 +273,6 @@ O projeto encontra-se em sua versão inicial, desenvolvido utilizando HTML5 e es
 
 O site poderá receber novas melhorias e funcionalidades futuramente.
 
----
 
 ## 14. Projeto
 
