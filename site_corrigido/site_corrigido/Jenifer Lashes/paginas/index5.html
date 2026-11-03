@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenifer Lashes - Agendamento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="../index.html">Início</a> |
+        <a href="index1.html">Nossos Serviços</a> |
+        <a href="index5.html">Agendamento e Horarios</a> |
+        <a href="orcamento.html">Orçamento</a> |
+        <a href="index8.html">Quem somos</a> 
+
+    </nav>
+</header>
+
+    
+
+    <main>
+        <section>
+            <h2>Agende seu Horário</h2>
+            <form action="/agendar" method="POST">
+                <fieldset>
+                    <legend>Dados e Serviço</legend>
+                    
+                    <label for="nome_agenda">Nome:</label>
+                    <input type="text" id="nome_agenda" name="nome" required>
+                    <br><br>
+
+                    <label for="servico">Serviço:</label>
+                    <select id="servico" name="servico" required>
+                        <option value="">Selecione...</option>
+                        <option value="cilios">Cílios</option>
+                        <option value="sobrancelha">Sobrancelha</option>
+                    </select>
+                    <br><br>
+
+                    <label for="data">Data desejada:</label>
+                    <input type="date" id="data" name="data" required>
+                    <br><br>
+
+                    <button type="submit">Confirmar Agendamento</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+<footer>
+    <ul>
+        <li><a href="index9.html">Politicas de privacidade</a></li>
+    </ul>
+    <ul>
+        <li><a href="index6.html">Termos de Uso</a></li>
+    </ul>
+    <ul>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+        <p>&copy; 2026 Jenifer Lashes. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,314 @@
+/* ==========================================================
+   Jenifer Lashes — style.css
+   Paleta tirada do logo: azul-marinho #052b5c e dourado #ffbd59
+   Fontes: Cormorant Garamond (títulos) e Jost (texto)
+   ========================================================== */
+
+:root {
+  --navy: #052b5c;
+  --navy-dark: #031d40;
+  --gold: #ffbd59;
+  --gold-dark: #e6a23c;
+  --sky: #dce6f5;
+  --bg: #f6f8fc;
+  --white: #ffffff;
+  --line: #c9d6ea;
+
+  --font-title: "Cormorant Garamond", Georgia, serif;
+  --font-text: "Jost", Arial, sans-serif;
+  --radius: 4px;
+  --max: 1100px;
+}
+
+/* ---------- Base ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--navy);
+  font-family: var(--font-text);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+main {
+  flex: 1;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.6em;
+  font-family: var(--font-title);
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: clamp(2.4rem, 6vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+main p {
+  max-width: 65ch;
+  margin: 0 0 1em;
+}
+
+a {
+  color: var(--navy);
+  text-decoration-color: var(--gold);
+}
+
+a:hover {
+  color: var(--navy-dark);
+  text-decoration-color: var(--navy-dark);
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+audio {
+  width: 100%;
+  max-width: 480px;
+}
+
+/* ---------- Cabeçalho e menu ---------- */
+
+header,
+nav {
+  background: var(--navy-dark);
+  color: var(--sky);
+}
+
+nav,
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 2rem;
+}
+
+nav {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.1rem 1.5rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  padding: 0.2rem 0;
+  border-bottom: 2px solid transparent;
+  color: var(--sky);
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+nav a:hover,
+nav a:focus,
+nav a[aria-current="page"] {
+  border-bottom-color: var(--gold);
+  color: var(--gold);
+}
+
+/* ---------- Seções ---------- */
+
+main > section,
+main > article {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
+
+.hero {
+  max-width: none;
+  padding: clamp(3rem, 9vw, 6rem) 1.5rem;
+  border-bottom: 4px solid var(--gold);
+  background: var(--navy);
+  color: var(--sky);
+  text-align: center;
+}
+
+.hero h1,
+.hero h2 {
+  color: var(--gold);
+}
+
+.hero p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Cards (coloque os itens dentro de <div class="cards">) ---------- */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.cards > * {
+  padding: 1.8rem;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--gold);
+  border-radius: var(--radius);
+  background: var(--white);
+  transition: border-color 0.2s;
+}
+
+.cards > *:hover {
+  border-color: var(--gold);
+}
+
+/* ---------- Imagem com moldura dourada deslocada (classe "moldura") ---------- */
+
+.moldura {
+  max-width: 440px;
+  margin: 0 auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 12px 12px 0 var(--gold);
+}
+
+/* ---------- Botões ---------- */
+
+.btn,
+button,
+input[type="submit"] {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  border: 1px solid var(--gold);
+  border-radius: var(--radius);
+  background: var(--gold);
+  color: var(--navy);
+  font: inherit;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+  border-color: var(--gold-dark);
+  background: var(--gold-dark);
+  color: var(--navy-dark);
+}
+
+/* ---------- Formulários ---------- */
+
+form {
+  display: grid;
+  gap: 1.1rem;
+  max-width: 560px;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  color: var(--navy);
+  font: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+.btn:focus {
+  outline: 3px solid var(--navy);
+  outline-offset: 2px;
+}
+
+/* ---------- Tabelas (preços, horários) ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+}
+
+th,
+td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+th {
+  background: var(--sky);
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+}
+
+/* ---------- Rodapé ---------- */
+
+footer {
+  padding: 2.5rem 1.5rem;
+  border-top: 4px solid var(--gold);
+  background: var(--navy-dark);
+  color: var(--sky);
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+footer a {
+  color: var(--sky);
+}
+
+footer a:hover {
+  color: var(--gold);
+}

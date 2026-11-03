@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenifer Lashes - Orçamento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Início</a> |
+            <a href="index1.html">Nossos Serviços</a> |
+            <a href="index5.html">Agendamento e Horarios</a> |
+            <a href="orcamento.html">Orçamento</a> |
+            <a href="index8.html">Quem somos</a> 
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Solicitar Orçamento</h2>
+            <form action="/enviar-orcamento" method="POST">
+                <fieldset>
+                    <legend>Escolha seus serviços</legend>
+                    
+                    <label for="email_orcamento">Seu E-mail:</label>
+                    <input type="email" id="email_orcamento" name="email" required>
+                    <br><br>
+
+                    <label>Quais serviços você deseja incluir no pacote?</label><br>
+                    <input type="checkbox" id="orc_cilios" name="servicos" value="cilios">
+                    <label for="orc_cilios">Cílios</label><br>
+                    
+                    <input type="checkbox" id="orc_sobrancelha" name="servicos" value="sobrancelha">
+                    <label for="orc_sobrancelha">Sobrancelhas</label><br><br>
+
+                    <button type="submit">Pedir Orçamento</button>
+                </fieldset>
+            </form>
+        </section>
+</main>
+<footer>
+    <ul>
+        <li><a href="index9.html">Politicas de privacidade</a></li>
+    </ul>
+    <ul>
+        <li><a href="index6.html">Termos de Uso</a></li>
+    </ul>
+    <ul>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+        <p>&copy; 2026 Jenifer Lashes. Todos os direitos reservados.</p>
+</footer>
+    </body>
+</html>
