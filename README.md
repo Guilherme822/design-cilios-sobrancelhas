@@ -10,7 +10,6 @@ O projeto tem como objetivo apresentar a empresa, divulgar seus serviços e trab
 ## Integrantes
 
 - **Guilherme Marques Bento**
-- **João Paulo**
 - **Amin brayan illanes callata**
 
 ---
