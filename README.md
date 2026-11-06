@@ -291,3 +291,21 @@ O site poderá receber novas melhorias e funcionalidades futuramente.
 **Jenifer Lashes**
 
 Site institucional desenvolvido para divulgação da empresa, apresentação de seus serviços e trabalhos realizados, além de facilitar o contato, orçamento e agendamento de clientes.
+
+## 15. Observação sobre a Validação do HTML
+
+<img width="1331" height="678" alt="Screenshot_1" src="https://github.com/user-attachments/assets/85ebd2d4-59c1-4e23-999a-a511cf7bac90" />
+
+Ao validar o site pelo endereço publicado (https://jennifer-lashes.netlify.app/) no validador do W3C, aparecem dois erros na linha 177: "Tag de início inesperada script" e "Erro fatal: não foi possível recuperar após o último erro".
+
+Esses erros são da hospedagem (Netlify) e não do código do site. O arquivo index.html termina na linha 173, com </html>, e não contém nenhum trecho na linha 177. O script apontado (/.netlify/scripts/hud?variant=public) é adicionado automaticamente pelo Netlify quando a página é servida, logo depois do </html>, e por isso o validador o considera uma tag fora do lugar.
+
+Para validar apenas o código do projeto, sem o trecho inserido pela hospedagem, deve-se usar a opção "Verificar por upload de arquivo" (ou "entrada direta") do validador, enviando o arquivo index.html do projeto.
+
+## 16. Validação do CSS
+<img width="1341" height="685" alt="Screenshot_2" src="https://github.com/user-attachments/assets/362685fb-fbc7-46b4-9803-e0f57d77c9f0" />
+
+
+O arquivo de estilos do projeto (css/style.css), utilizado em todas as páginas do site, foi validado no Validador CSS do W3C (W3C CSS Validation Service).
+
+O resultado da validação foi positivo: o validador não apontou erros no código CSS, confirmando que a folha de estilos segue as regras e a sintaxe definidas pelo W3C.
