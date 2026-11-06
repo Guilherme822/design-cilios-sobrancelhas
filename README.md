@@ -269,7 +269,7 @@ O resultado é um site com **13 páginas**, desenvolvido para a **Jenifer Lashes
 
 ---
 
-Aqui o link do site Hospedado no Netlify: https://desing-cilios-e-sobrancelhas.netlify.app/
+Aqui o link do site Hospedado no Netlify: [https://desing-cilios-e-sobrancelhas.netlify.app/](https://jennifer-lashes.netlify.app)
 
 ## 12. Tecnologias Utilizadas
 
